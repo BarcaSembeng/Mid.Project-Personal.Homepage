@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/responsive.css" />
+  <title>Abu Sembeng - Personal Website</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="main-container">
+      <div class="nav">
+        <div class="logo">
+          <a href="/">JD</a>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="/resume.pdf" target="_blank">
+                <button class="btn">Resume</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </div>
+
+      <section id="hero">
+        <div class="hero-left">
+          <h3 class="pre-title">Hello, I'm</h3>
+          <h1 class="hero-name">Abu <span>Sembeng</span></h1>
+          <p>
+            Seseorang Yang Mempunyai Mimpi Yang Tinggi
+          </p>
+        </div>
+
+        <div class="hero-right">
+          <img src="./images/hero.svg" alt="Person Standing" />
+        </div>
+      </section>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about main-container">
+      <h3 class="pre-title">About Me</h3>
+      <h1 class="section-title">Who Am I?</h1>
+      <p>
+        Saya Adalah Mahasiswa Di Universitas Sam Ratulangi
+      </p>
+      
+      <p>
+        Kegiatan Saya Adalah Masuk kuliah, Membantu Orang Tua, Dan Saya Belum Mempunyai Pekerjaan
+      </p>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+<!-- Galerry Section -->
+<section id="Gallery">
+    <div class="portfolio main-container">
+      <h3 class="pre-title">Gallery</h3>
+      <h1 class="section-title portfolio-title">ini adalah beberapa foto saya</h1>
+
+      <div class="grid-3">
+        <div class="Gallery 1">
+          <img src="./images/portfolio-1.jpg" alt="Image" />
+          <h4>Gallery 1</h4>
+          <p></p>
+          <a href="#">View image</a>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="./images/portfolio-2.jpg" alt="Image" />
+          <h4>Gallery 2</h4>
+          <p></p>
+          <a href="#">View image</a>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="./images/portfolio-3.jpg" alt="Image" />
+          <h4>Gallery 3</h4>
+          <p></p>
+          <a href="#">View Image</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Galery Section --> 
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact main-container">
+      <h3 class="pre-title">Contact Me</h3>
+      <h1 class="section-title contact-title">Get in Touch</h1>
+
+      <div class="contact-form">
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer main-container">
+      <div class="footer-logo">
+        <a href="/">AS</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><img src="./images/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="./images/twitter.svg" alt="Twitter" /></a>
+        <a href="#"><img src="./images/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="./images/linkedin.svg" alt="LinkedIn" /></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2024 Abu Sembeng. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
